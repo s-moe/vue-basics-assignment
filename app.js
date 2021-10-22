@@ -1,6 +1,8 @@
 const app = Vue.createApp({
   data() {
-    return {};
+    return {
+      name: "Sarah",
+    };
   },
 });
 app.mount("#assignment");
