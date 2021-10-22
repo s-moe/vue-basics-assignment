@@ -2,6 +2,7 @@ const app = Vue.createApp({
   data() {
     return {
       name: "Sarah",
+      age: 37,
     };
   },
 });
