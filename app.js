@@ -11,10 +11,10 @@ const app = Vue.createApp({
     ageInFiveYears() {
       return this.age + 5;
     },
-    favoriteNumber() {
-      let randomNumber = Math.random();
-      return randomNumber;
-    },
+    // favoriteNumber() {
+    //   let randomNumber = Math.random();
+    //   return randomNumber;
+    // },
   },
 });
 app.mount("#assignment");
