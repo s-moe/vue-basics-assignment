@@ -9,8 +9,7 @@ const app = Vue.createApp({
   },
   methods: {
     ageInFiveYears() {
-      let newAge = this.age + 5;
-      return newAge;
+      return this.age + 5;
     },
     favoriteNumber() {
       let randomNumber = Math.random();
